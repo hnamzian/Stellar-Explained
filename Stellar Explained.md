@@ -95,3 +95,28 @@ Stellar looks for offers on the network asking for USD in exchange for lumens (t
 - Chain of conversions
 
 If there are no explicit relationship between offers to buy and sell, Stellar tries to find offers from the network that will lead a chain of conversions from EUR to USD. For example, EUR to AUD, AUD to BTC, BTC to XLM, XLM to USD.
+
+
+## Security
+
+Stellar is not trunig-complete platform, and smart contracts on Stellar are simple and less flexible, which on the other hand, there would be less room left for hackers to attack.
+
+Stellar has provided more security plans by implementing various authentication and encryption:
+
+- Multi signature
+- There exists an option to choose which nodes can validate transactions
+- Batching/Atomicity which leads to more auditable code, limits uncertainty, and decreases the risk of harm from bad actors
+
+## Compliance
+
+- KYC/AML: Arrangements can be done such that tokens built on Stellar blockchain will only be traded between KYC/AML approved addresses. Stellar has a provision where accounts proven to be owned by a terrorist are frozen.
+
+## Liquidity
+
+Stellar has solved this issue fundamentally as the startups don’t have to rely on 3rd party exchanges to list their tokens as Stellar has its own built-in Distributed Exchange (DEX) where all native tokens can be listed and available to trade since Day 1 of their ICO/STO.
+
+## Scalability and fee
+
+The average settlement time for stellar transactions is around 5 second.
+
+The transaction fee on the Stellar network is considerably small when compared to that on the Ethereum network. An approximation states that for the fee to total 1 XLM, it would have to contain 100,000 transactions.
