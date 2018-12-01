@@ -76,3 +76,22 @@ All these offers form what is called an orderbook. There is an orderbook for eac
 
 This allows people to not only buy and sell currencies in a foreign exchange like manner but also to convert currencies seamlessly during transactions.
 
+## Multi-currency transactions
+
+![multi currency](images/multicurrency.png "multi currency")
+
+Stellar allows you to send any currency you hold to anyone else in a different currency through the built-in distributed exchange. People can receive any currency through an anchor they added.
+
+### possible ways the transaction can happen
+
+- Conversion through an offer
+
+Stellar finds an offer on the internal USD/EUR exchange for someone wanting to buy EUR for USD and automatically makes the exchange between the two parties.
+
+- Using lumens as an intermediary currency
+
+Stellar looks for offers on the network asking for USD in exchange for lumens (the native — purely digital — currency). It simultaneously looks for an offer asking for lumens in exchange for euros. The network makes those exchanges and sends Bob the resulting euro credit.
+
+- Chain of conversions
+
+If there are no explicit relationship between offers to buy and sell, Stellar tries to find offers from the network that will lead a chain of conversions from EUR to USD. For example, EUR to AUD, AUD to BTC, BTC to XLM, XLM to USD.
