@@ -65,3 +65,14 @@
 To use PayPal you deposit money in from your bank account. You recieve credit in your PayPal account. You can send your credit to anyone else trusting to PayPal, and then convert it to real money using PayPal by withdrawing it to the bank.
 
 Anchors perform the same function in Stellar. The difference is, all the "Paypals" and other anchors are operating on the same network so they can all transact with each other now. People can now easily send and exchange all these different anchor credits with each other.
+
+## Distributed Exchange
+
+![distributed exchange](images/distributed-exchange.png "distributed exchange")
+
+Stellar ledger can be thought of global marketplace for offers of buy/sell currencies committed by people to exchange one type of currency to another one.
+
+All these offers form what is called an orderbook. There is an orderbook for each currency/issuer pair. So if you are wanting to exchange Virgin Bank/EUR for bitstamp/BTC you look at that particular order book in the ledger to see what people are buying and selling it for.
+
+This allows people to not only buy and sell currencies in a foreign exchange like manner but also to convert currencies seamlessly during transactions.
+
