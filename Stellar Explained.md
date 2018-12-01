@@ -43,3 +43,25 @@
 - Your friend receive EUR credit which can withdraw using an anchor supporting EUR
 
 ![process overview](images/process-overview.png "process overview")
+
+## Anchor, trust and credit
+
+![gateway](images/gateway.png "gateway")
+
+- Entities that people trust to **hold their deposits** and **issue credits** into the Stellar network for those deposits.
+
+- They act as a bridge between different currencies and the Stellar network.
+
+- All money transactions in the Stellar network (except the native digital currency of lumens) occur in the form of credit issued by anchors.
+
+### What does Anchors do
+
+    1- They take your deposit and issue the corresponding credit to your account address on the Stellar ledger.
+
+    2- You can make a withdrawal by bringing them credit they issued.
+
+### Anchors vs PayPal
+
+To use PayPal you deposit money in from your bank account. You recieve credit in your PayPal account. You can send your credit to anyone else trusting to PayPal, and then convert it to real money using PayPal by withdrawing it to the bank.
+
+Anchors perform the same function in Stellar. The difference is, all the "Paypals" and other anchors are operating on the same network so they can all transact with each other now. People can now easily send and exchange all these different anchor credits with each other.
